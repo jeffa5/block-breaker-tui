@@ -1,5 +1,10 @@
 [package]
 name = "block-breaker-tui"
+description = "A tui frontend for the block breaker library"
+repository = "https://github.com/jeffa5/block-breaker-tui"
+readme = "README.md"
+keywords = ["tui", "block", "breaker", "game"]
+license = "MIT"
 version = "0.1.0"
 authors = ["Jeffas <dev@jeffas.io>"]
 edition = "2018"
