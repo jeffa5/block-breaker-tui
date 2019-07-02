@@ -56,12 +56,11 @@ impl<'a> Widget for GameWidget<'a> {
 
         // draw the blocks
         let blocks = self.game_state.blocks();
-        let block_string = "    ";
         for block in blocks {
             buf.set_string(
                 block.x() * 2,
                 block.y(),
-                block_string,
+                format!("{: ^4}", block.strength()),
                 Style::default().bg(Color::Green),
             )
         }
