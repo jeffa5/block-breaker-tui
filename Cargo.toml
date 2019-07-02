@@ -10,7 +10,7 @@ authors = ["Jeffas <dev@jeffas.io>"]
 edition = "2018"
 
 [dependencies]
-block-breaker = "0.2.1"
+block-breaker = { git = "https://github.com/jeffa5/block-breaker" }
 crossterm = "0.9.6"
 structopt = "0.2.18"
 
@@ -19,5 +19,3 @@ version = "0.6.1"
 default-features = false
 features = ["crossterm"]
 
-[patch.crates-io]
-block-breaker = { path = "../block-breaker" }
