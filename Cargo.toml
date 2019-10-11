@@ -11,7 +11,7 @@ edition = "2018"
 
 [dependencies]
 block-breaker = { git = "https://github.com/jeffa5/block-breaker" }
-crossterm = "0.9.6"
+crossterm = "0.11.1"
 structopt = "0.2.18"
 
 [dependencies.tui]
