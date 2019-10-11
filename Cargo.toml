@@ -15,7 +15,7 @@ crossterm = "0.9.6"
 structopt = "0.2.18"
 
 [dependencies.tui]
-version = "0.6.1"
+version = "0.6.2"
 default-features = false
 features = ["crossterm"]
 
